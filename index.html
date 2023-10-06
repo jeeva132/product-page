@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-commerce Navbar</title>
+    <style>
+      .product-info-alternative {
+        margin-top: 50px;
+      }
+
+      .product-image {
+        overflow: hidden;
+      }
+
+      .product-image img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbarNav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Samsung Store</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#related-products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#color">Colors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#review">Reviews</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="product-info-alternative" class="image-grid" id="home1">
+      <div class="container mainp">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="product-details">
+              <h2 class="pro-title">Samsung Galaxy S22</h2>
+              <div class="pro-info">
+                <p>Price: ₹1,580.00</p>
+                <p>Display: 6.8-inch Dynamic AMOLED 2X</p>
+                <p>Processor: Exynos 2200 / Snapdragon 8 Gen 2</p>
+                <p>RAM: 12GB / 16GB</p>
+                <p>Storage: 128GB / 256GB / 512GB</p>
+                <p>Camera: Quad 108MP + 12MP + 12MP + 8MP</p>
+                <p>Battery: 5,000mAh</p>
+              </div>
+
+              <button class="btn btn-primary add-to-cart">Add to Cart</button>
+            </div>
+          </div>
+          <div class="col-lg-6 product-image">
+            <img src="peakpx.jpg" style="height: 100%" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <section class="image-grid" id="related-products">
+      <div class="container mt-100">
+        <div class="row">
+          <div class="container">
+            <div class="row justify-content-center samhead">
+              Related Products
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-30">
+              <a class="card-img-tiles" href="#" data-abc="true">
+                <div class="inner">
+                  <div class="main-img">
+                    <img
+                      src="https://images.samsung.com/is/image/samsung/assets/in/smartphones/galaxy-a54/a54-5g-Awesome-Lime.jpg?imwidth=480"
+                      alt="Category"
+                    />
+                  </div></div
+              ></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">Samsung M34</h4>
+                <p class="text-muted">Starting from ₹49900</p>
+                <a
+                  class="btn btn-outline-primary btn-sm add-to-cart"
+                  href="#"
+                  data-abc="true"
+                  >View Products</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-30">
+              <a class="card-img-tiles" href="#" data-abc="true">
+                <div class="inner">
+                  <div class="main-img">
+                    <img
+                      src="https://images.samsung.com/in/smartphones/galaxy-s23-ultra/buy/product_color_green.png?imwidth=480"
+                      alt="Category"
+                    />
+                  </div></div
+              ></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">Samsungs A41</h4>
+                <p class="text-muted">Starting from ₹50000</p>
+                <a
+                  class="btn btn-outline-primary btn-sm add-to-cart"
+                  href="#"
+                  data-abc="true"
+                  >View Products</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-30">
+              <a class="card-img-tiles" href="#" data-abc="true">
+                <div class="inner">
+                  <div class="main-img">
+                    <img
+                      src="https://images.samsung.com/in/smartphones/galaxy-z-fold5/buy/product_color_icyBlue.png?imwidth=480"
+                      alt="Category"
+                    />
+                  </div></div
+              ></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">Samsung Z fold</h4>
+                <p class="text-muted">Starting from ₹90000</p>
+                <a
+                  class="btn btn-outline-primary btn-sm add-to-cart"
+                  href="#"
+                  data-abc="true"
+                  >View Products</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row justify-content-center samhead">Epic starts here</div>
+        <div class="row justify-content-center sampara">
+          Epic moments are now accessible to all. Galaxy S23 FE opens the door
+          for more people to experience the extraordinary. With its long-lasting
+          power and stunning night shots, the phone becomes your gateway to
+          lasting epic memories.
+        </div>
+      </div>
+    </section>
+    <br />
+    <div class="container">
+      <div class="row justify-content-center samhead">
+        Allure of colors that capture attention
+      </div>
+    </div>
+    <section id="color">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.samsung.com/is/image/samsung/p6pim/in/feature/164812515/in-feature--nbsp--538353713?₹FB_TYPE_A_JPG₹"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.samsung.com/is/image/samsung/p6pim/in/feature/164812514/in-feature--nbsp--538353719?₹FB_TYPE_A_JPG₹"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.samsung.com/is/image/samsung/p6pim/in/feature/164812516/in-feature--nbsp--538353715?₹FB_TYPE_A_JPG₹"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button "
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-secondary"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-secondary"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <br />
+    <div class="container">
+      <div class="row justify-content-center samhead">Reviews</div>
+    </div>
+    <section id="review">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide text-center carousel-dark"
+        data-mdb-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="rounded-circle shadow-1-strong mb-4"
+              src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FydG9vbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="avatar"
+              style="width: 150px"
+            />
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <h5 class="mb-3">John</h5>
+                <p>Photographer</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  I recently purchased the Samsung Galaxy S22 Ultra, and I must
+                  say it's nothing short of extraordinary. The stunning 6.8-inch
+                  Dynamic AMOLED 2X display is a visual delight, providing crisp
+                  and vibrant colors for an immersive viewing experience.
+                </p>
+              </div>
+            </div>
+            <ul
+              class="list-unstyled d-flex justify-content-center text-warning mb-0"
+            >
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="fas fa-star fa-sm"></i></li>
+              <li><i class="far fa-star fa-sm"></i></li>
+            </ul>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-mdb-target="#carouselExampleControls"
+          data-mdb-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-mdb-target="#carouselExampleControls"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section id="contact-info">
+      <footer class="footer text-center" style="margin-top: 50px">
+        &copy;samsung-store -Jeevan S
+      </footer>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
